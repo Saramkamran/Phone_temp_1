@@ -1,0 +1,469 @@
+@font-face {
+font-family: "strata-icons";
+src: url("../fonts/strata-icons.woff2") format("woff2"),
+url("../fonts/strata-icons.woff") format("woff"),
+url("../fonts/strata-icons.ttf") format("truetype");
+}
+
+.vi-update .ico {
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+line-height: 1;
+}
+
+.vi-update .ico-xs {
+font-size: .75em !important;
+}
+
+.vi-update .ico-sm {
+font-size: .875em !important;
+}
+
+
+.vi-update .ico-lg {
+font-size: 1.25em !important;
+line-height: 0.8em;
+vertical-align: -.0625em;
+}
+
+.vi-update .ico-xl {
+font-size: 1.5em !important;
+line-height: 0.66667em;
+vertical-align: -.075em;
+}
+
+.vi-update .ico-1x {
+font-size: 1em !important;
+}
+
+.vi-update .ico-2x {
+font-size: 2em !important;
+}
+
+.vi-update .ico-3x {
+font-size: 3em !important;
+}
+
+.vi-update .ico-4x {
+font-size: 4em !important;
+}
+
+.vi-update .ico-5x {
+font-size: 5em !important;
+}
+
+.vi-update .ico-6x {
+font-size: 6em !important;
+}
+
+.vi-update .ico-7x {
+font-size: 7em !important;
+}
+
+.vi-update .ico-8x {
+font-size: 8em !important;
+}
+
+.vi-update .ico-9x {
+font-size: 9em !important;
+}
+
+.vi-update .ico-10x {
+font-size: 10em !important;
+}
+
+.vi-update .ico:before {
+font-family: strata-icons !important;
+font-style: normal;
+font-weight: normal !important;
+vertical-align: top;
+}
+
+.vi-update .ico-10-days-to-collect:before {
+content: "\f101" !important;
+}
+.vi-update .ico-100-days-return:before {
+content: "\f102" !important;
+}
+.vi-update .ico-360-degrees:before {
+content: "\f103" !important;
+}
+.vi-update .ico-account:before {
+content: "\f104" !important;
+}
+.vi-update .ico-add-circle:before {
+content: "\f105" !important;
+}
+.vi-update .ico-add:before {
+content: "\f106" !important;
+}
+.vi-update .ico-amend-edit:before {
+content: "\f107" !important;
+}
+.vi-update .ico-ao-logo:before {
+content: "\f108" !important;
+}
+.vi-update .ico-ao-sorglos:before {
+content: "\f109" !important;
+}
+.vi-update .ico-ar:before {
+content: "\f10a" !important;
+}
+.vi-update .ico-audio:before {
+content: "\f10b" !important;
+}
+.vi-update .ico-award:before {
+content: "\f10c" !important;
+}
+.vi-update .ico-bag:before {
+content: "\f10d" !important;
+}
+.vi-update .ico-basket:before {
+content: "\f10e" !important;
+}
+.vi-update .ico-buy-now-pay-later:before {
+content: "\f10f" !important;
+}
+.vi-update .ico-buying-guides:before {
+content: "\f110" !important;
+}
+.vi-update .ico-calendar:before {
+content: "\f111" !important;
+}
+.vi-update .ico-call:before {
+content: "\f112" !important;
+}
+.vi-update .ico-camera:before {
+content: "\f113" !important;
+}
+.vi-update .ico-cancel:before {
+content: "\f114" !important;
+}
+.vi-update .ico-card:before {
+content: "\f115" !important;
+}
+.vi-update .ico-cashback-euro:before {
+content: "\f116" !important;
+}
+.vi-update .ico-cashback-gbp:before {
+content: "\f117" !important;
+}
+.vi-update .ico-chat:before {
+content: "\f118" !important;
+}
+.vi-update .ico-chevron-down:before {
+content: "\f119" !important;
+}
+.vi-update .ico-chevron-left:before {
+content: "\f11a" !important;
+}
+.vi-update .ico-chevron-right:before {
+content: "\f11b" !important;
+}
+.vi-update .ico-chevron-up:before {
+content: "\f11c" !important;
+}
+.vi-update .ico-click-and-collect:before {
+content: "\f11d" !important;
+}
+.vi-update .ico-clock:before {
+content: "\f11e" !important;
+}
+.vi-update .ico-close:before {
+content: "\f11f" !important;
+}
+.vi-update .ico-co2-neutral:before {
+content: "\f120" !important;
+}
+.vi-update .ico-compare:before {
+content: "\f121" !important;
+}
+.vi-update .ico-cooking:before {
+content: "\f122" !important;
+}
+.vi-update .ico-copy:before {
+content: "\f123" !important;
+}
+.vi-update .ico-credit-limit:before {
+content: "\f124" !important;
+}
+.vi-update .ico-delivery:before {
+content: "\f125" !important;
+}
+.vi-update .ico-desktop:before {
+content: "\f126" !important;
+}
+.vi-update .ico-devices:before {
+content: "\f127" !important;
+}
+.vi-update .ico-dishwashers:before {
+content: "\f128" !important;
+}
+.vi-update .ico-document:before {
+content: "\f129" !important;
+}
+.vi-update .ico-download-document:before {
+content: "\f12a" !important;
+}
+.vi-update .ico-download:before {
+content: "\f12b" !important;
+}
+.vi-update .ico-enlarge:before {
+content: "\f12c" !important;
+}
+.vi-update .ico-euro:before {
+content: "\f12d" !important;
+}
+.vi-update .ico-exit:before {
+content: "\f12e" !important;
+}
+.vi-update .ico-family:before {
+content: "\f12f" !important;
+}
+.vi-update .ico-features-we-love:before {
+content: "\f130" !important;
+}
+.vi-update .ico-finance-euro:before {
+content: "\f131" !important;
+}
+.vi-update .ico-finance-gbp:before {
+content: "\f132" !important;
+}
+.vi-update .ico-flexible-payment-euro:before {
+content: "\f133" !important;
+}
+.vi-update .ico-flexible-payment-gbp:before {
+content: "\f134" !important;
+}
+.vi-update .ico-fridges-and-freezers:before {
+content: "\f135" !important;
+}
+.vi-update .ico-games:before {
+content: "\f136" !important;
+}
+.vi-update .ico-gaming:before {
+content: "\f137" !important;
+}
+.vi-update .ico-gbp:before {
+content: "\f138" !important;
+}
+.vi-update .ico-gift:before {
+content: "\f139" !important;
+}
+.vi-update .ico-grid:before {
+content: "\f13a" !important;
+}
+.vi-update .ico-heart:before {
+content: "\f13b" !important;
+}
+.vi-update .ico-hide:before {
+content: "\f13c" !important;
+}
+.vi-update .ico-home:before {
+content: "\f13d" !important;
+}
+.vi-update .ico-hourglass:before {
+content: "\f13e" !important;
+}
+.vi-update .ico-info:before {
+content: "\f13f" !important;
+}
+.vi-update .ico-installation:before {
+content: "\f140" !important;
+}
+.vi-update .ico-interest-free:before {
+content: "\f141" !important;
+}
+.vi-update .ico-keyboard:before {
+content: "\f142" !important;
+}
+.vi-update .ico-laundry:before {
+content: "\f143" !important;
+}
+.vi-update .ico-lightbulb:before {
+content: "\f144" !important;
+}
+.vi-update .ico-list:before {
+content: "\f145" !important;
+}
+.vi-update .ico-live-chat:before {
+content: "\f146" !important;
+}
+.vi-update .ico-location:before {
+content: "\f147" !important;
+}
+.vi-update .ico-lock:before {
+content: "\f148" !important;
+}
+.vi-update .ico-mail:before {
+content: "\f149" !important;
+}
+.vi-update .ico-manageable-payment-euro:before {
+content: "\f14a" !important;
+}
+.vi-update .ico-manageable-payment-gbp:before {
+content: "\f14b" !important;
+}
+.vi-update .ico-measure:before {
+content: "\f14c" !important;
+}
+.vi-update .ico-menu:before {
+content: "\f14d" !important;
+}
+.vi-update .ico-mic:before {
+content: "\f14e" !important;
+}
+.vi-update .ico-more:before {
+content: "\f14f" !important;
+}
+.vi-update .ico-movie:before {
+content: "\f150" !important;
+}
+.vi-update .ico-next-day-delivery:before {
+content: "\f151" !important;
+}
+.vi-update .ico-notification:before {
+content: "\f152" !important;
+}
+.vi-update .ico-payback-points:before {
+content: "\f153" !important;
+}
+.vi-update .ico-payment-options-euro:before {
+content: "\f154" !important;
+}
+.vi-update .ico-payment-options-gbp:before {
+content: "\f155" !important;
+}
+.vi-update .ico-picture:before {
+content: "\f156" !important;
+}
+.vi-update .ico-play:before {
+content: "\f157" !important;
+}
+.vi-update .ico-price-match-euro:before {
+content: "\f158" !important;
+}
+.vi-update .ico-price-match:before {
+content: "\f159" !important;
+}
+.vi-update .ico-print:before {
+content: "\f15a" !important;
+}
+.vi-update .ico-product-info:before {
+content: "\f15b" !important;
+}
+.vi-update .ico-promotion:before {
+content: "\f15c" !important;
+}
+.vi-update .ico-protection:before {
+content: "\f15d" !important;
+}
+.vi-update .ico-question-circle:before {
+content: "\f15e" !important;
+}
+.vi-update .ico-rating:before {
+content: "\f15f" !important;
+}
+.vi-update .ico-rechedule-delivery:before {
+content: "\f160" !important;
+}
+.vi-update .ico-recycling:before {
+content: "\f161" !important;
+}
+.vi-update .ico-refresh:before {
+content: "\f162" !important;
+}
+.vi-update .ico-refund-euro:before {
+content: "\f163" !important;
+}
+.vi-update .ico-refund-gbp:before {
+content: "\f164" !important;
+}
+.vi-update .ico-returns:before {
+content: "\f165" !important;
+}
+.vi-update .ico-reviews:before {
+content: "\f166" !important;
+}
+.vi-update .ico-search:before {
+content: "\f167" !important;
+}
+.vi-update .ico-secure:before {
+content: "\f168" !important;
+}
+.vi-update .ico-services:before {
+content: "\f169" !important;
+}
+.vi-update .ico-settings:before {
+content: "\f16a" !important;
+}
+.vi-update .ico-share:before {
+content: "\f16b" !important;
+}
+.vi-update .ico-show:before {
+content: "\f16c" !important;
+}
+.vi-update .ico-small-appliances:before {
+content: "\f16d" !important;
+}
+.vi-update .ico-spread-cost-euro:before {
+content: "\f16e" !important;
+}
+.vi-update .ico-spread-cost-gbp:before {
+content: "\f16f" !important;
+}
+.vi-update .ico-star:before {
+content: "\f170" !important;
+}
+.vi-update .ico-stop:before {
+content: "\f171" !important;
+}
+.vi-update .ico-submit:before {
+content: "\f172" !important;
+}
+.vi-update .ico-subtract-circle:before {
+content: "\f173" !important;
+}
+.vi-update .ico-subtract:before {
+content: "\f174" !important;
+}
+.vi-update .ico-surround-sound:before {
+content: "\f175" !important;
+}
+.vi-update .ico-tag:before {
+content: "\f176" !important;
+}
+.vi-update .ico-text-message:before {
+content: "\f177" !important;
+}
+.vi-update .ico-tick-circle:before {
+content: "\f178" !important;
+}
+.vi-update .ico-tick:before {
+content: "\f179" !important;
+}
+.vi-update .ico-track-your-order:before {
+content: "\f17a" !important;
+}
+.vi-update .ico-track:before {
+content: "\f17b" !important;
+}
+.vi-update .ico-trashcan:before {
+content: "\f17c" !important;
+}
+.vi-update .ico-verification:before {
+content: "\f17d" !important;
+}
+.vi-update .ico-warning:before {
+content: "\f17e" !important;
+}
+.vi-update .ico-zoom-in:before {
+content: "\f17f" !important;
+}
+.vi-update .ico-zoom-out:before {
+content: "\f180" !important;
+}
